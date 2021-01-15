@@ -1,0 +1,482 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(241, 239, 239);
+    /* #f4f4f4 */
+ 
+}
+/* globel*/
+
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+
+
+}
+
+/* -----> header styling <------*/
+.header{
+    background-image: url("/image/backgr.png");
+  
+    
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+    padding-top: 30px;
+    min-height: 768px;
+    
+    color: white;
+}
+header{
+    background-color: white;
+}
+header a{
+    
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    float: right;
+    padding: 0;
+    margin: 0;
+    float: right;
+    background-image: url('/image/rect.png');
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 5px;
+    width: 276px;
+    
+    opacity: 1;
+    text-align: center;
+
+    
+}
+
+
+header #branding{
+    float: left;
+}
+header #branding h1{
+    margin: 0;
+    float: left;
+}
+ header #show h1{
+margin-top: 108px;
+font-size: 70px;
+opacity: 0.9;
+color: white;
+
+margin-bottom: 10px;}
+
+header #show p{
+    
+    font-size: 50px;
+    opacity: 0.9;
+    
+} 
+
+    /* ---->search styling <--------*/
+
+.search{
+    position: absolute;
+    top: 80%;
+    left: 55%;
+    width: 690px;
+    transform: translate(-50%,-50%);
+    align-items: center;
+}
+input{
+    position: relative;
+    display:inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]{
+    background: #fff;
+    width: 500px;
+    height: 60px;
+    border: none;
+    outline:none;
+    padding: 0 25px;
+    border-radius: 25px;
+
+}
+input[type="submit"]{
+    position: relative;
+    left: -160px;
+    height: 40px;
+    border-radius: 25px;
+   
+    width: 150px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: green;
+    color: #fff;
+
+}
+
+/* ----->  boxes styling  <-------*/
+
+.title{
+    text-align: center;
+}
+.boxes{
+   /* right: -140px; */
+   text-align: center;
+ 
+    max-width: 200px;
+    overflow: hidden;
+    height: 220px;
+    padding: 0px 15px 0px 15px;
+    box-shadow: 5px 5px 5px rgb(192, 190, 190);
+    margin: 10px 10px;
+    background-color: #fff;
+    /* position: relative; */
+    display:inline-block;
+
+    /* align-items: center; */
+    
+}
+.boxes img{
+    
+    /* align-items: center; */
+    /* display: block; */
+    object-fit: cover;
+    margin-top: 5%;
+    /* right: -50px; */
+}
+.box h2{
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    text-align: center;
+    color: #969292;
+}
+.box p{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 70px;
+    overflow: hidden;
+    color: #c4bfbf;
+    text-align: center;
+}
+
+/* ----->  commerces styling  <-------*/
+
+.boxess{
+    
+     max-width: 200px;
+     overflow: hidden;
+     height: 250px;
+     padding: 0px 15px 0px 15px;
+     box-shadow: 1px 1px 1px rgb(241, 239, 239);
+     margin: 10px 10px;
+     position: relative;
+     display:inline-block;
+     align-items: center;
+    
+ }
+ .boxess img{
+     
+     align-items: center;
+     display: block;
+     object-fit: cover;
+     /* right: -50px; */
+     border-radius: 2px 2px 2px 2px;
+ }
+ .boxess h2{
+     width: 100%;
+     text-overflow: ellipsis;
+     overflow: hidden;
+     white-space: nowrap;
+     text-transform: capitalize;
+     cursor: pointer;
+     
+     color: #4d9ffd;
+ }
+  .boxess p{
+     width: 100%;
+     display: -webkit-box;
+     -webkit-box-orient: vertical;
+     -webkit-line-clamp: 3;
+     height: 70px;
+     overflow: hidden;
+     color: #a7a4a4;
+     
+ }
+ #suites{
+     text-align: center;
+     margin-top: 10px;
+     
+ }
+
+ /* --------> media Query  <--------*/
+
+ 
+ @media screen and (max-width: 900px)
+ {
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        line-height: 1.5;
+        padding: 0;
+        margin: 0;
+        background-color: rgb(241, 239, 239);
+        /* #f4f4f4 */
+     
+    }
+    /* globel*/
+    
+    .container{
+        width: 80%;
+        margin: auto;
+        overflow: hidden;
+        text-align: center;
+    
+    
+    }
+    
+    /* -----> header styling <------*/
+    .header{
+        background-image: url("/image/backgr.png");
+      
+        
+      background-color: #cccccc;
+      height: 500px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+        padding-top: 30px;
+        min-height: 768px;
+        
+        color: white;
+    }
+    header{
+        background-color: white;
+    }
+     #branding h2{
+        font-size: 15px;  
+    }
+    header a{
+        
+        color: #ffffff;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 12px;
+        float: right;
+        padding: 0;
+        margin: 0;
+       
+        background-image: url('/image/rect.png');
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 5px;
+        width: 200px;
+        
+        opacity: 1;
+        text-align: center;
+    
+        
+    }
+    
+    
+    header #branding{
+        float: left;
+    }
+    header #branding h1{
+        margin: 0;
+        float: left;
+    }
+     header #show h1{
+    margin-top: 108px;
+    font-size: 50px;
+    opacity: 0.9;
+    color: white;
+    
+    margin-bottom: 10px;}
+    
+    header #show p{
+        
+        font-size: 30px;
+        opacity: 0.9;
+        
+    } 
+    
+        /* ---->search styling <--------*/
+    
+    .search{
+        
+        top: 80%;
+        /* left: 60%; */
+        width: fit-content;
+        transform: translate(-50%,-50%);
+        
+    }
+    input{
+        position: relative;
+       
+        font-size: 20px;
+   
+        transition: .5s;
+        
+       
+    }
+    input[type="text"]{
+       
+        background: #fff;
+        width: 450px;
+        margin-right: 30px;
+        height: 60px;
+        border: none;
+        outline:none;
+        padding: 0 25px;
+        border-radius: 25px;
+    
+    }
+    input[type="submit"]{
+        position: absolute;
+        top:15%;
+        left: 290px; 
+        height: 40px;
+        border-radius: 25px;
+       
+        width: 150px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        background: green;
+        color: #fff;
+    
+    }
+    
+    /* ----->  boxes styling  <-------*/
+    
+    .title{
+        text-align: center;
+    }
+    .boxes{
+       /* right: -140px; */
+       text-align: center;
+     
+        max-width: 200px;
+        overflow: hidden;
+        height: 220px;
+        padding: 0px 15px 0px 15px;
+        box-shadow: 5px 5px 5px rgb(192, 190, 190);
+        margin: 10px 10px;
+        background-color: #fff;
+        /* position: relative; */
+        display:inline-block;
+    
+        /* align-items: center; */
+        
+    }
+    .boxes img{
+        
+        /* align-items: center; */
+        /* display: block; */
+        object-fit: cover;
+        margin-top: 5%;
+        /* right: -50px; */
+    }
+    .box h2{
+        width: 100%;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        text-transform: capitalize;
+        cursor: pointer;
+        text-align: center;
+        color: #969292;
+    }
+    .box p{
+        width: 100%;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 3;
+        height: 70px;
+        overflow: hidden;
+        color: #c4bfbf;
+        text-align: center;
+    }
+    
+    /* ----->  commerces styling  <-------*/
+    
+    .boxess{
+        
+         max-width: 200px;
+         overflow: hidden;
+         height: 250px;
+         padding: 0px 15px 0px 15px;
+         box-shadow: 1px 1px 1px rgb(241, 239, 239);
+         margin: 10px 10px;
+         position: relative;
+         display:inline-block;
+         align-items: center;
+        
+     }
+     .boxess img{
+         
+         align-items: center;
+         display: block;
+         object-fit: cover;
+         /* right: -50px; */
+         border-radius: 2px 2px 2px 2px;
+     }
+     .boxess h2{
+         width: 100%;
+         text-overflow: ellipsis;
+         overflow: hidden;
+         white-space: nowrap;
+         text-transform: capitalize;
+         cursor: pointer;
+         
+         color: #4d9ffd;
+     }
+      .boxess p{
+         width: 100%;
+         display: -webkit-box;
+         -webkit-box-orient: vertical;
+         -webkit-line-clamp: 3;
+         height: 70px;
+         overflow: hidden;
+         color: #a7a4a4;
+         
+     }
+     #suites{
+         text-align: center;
+         margin-top: 10px;
+         
+    
+ }
+}
+
+
+
+
+
+
+
+
+
+
+
+
